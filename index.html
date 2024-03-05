@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickGame</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Title -->
+    <h1 class="textCenter">Coockie Clicker</h1>
+    <!-- Body of the app -->
+    <main class="grow">
+        <!-- Where the score will be displayed -->
+        <p id="target" class="textCenter">0</p>
+        <!-- Button to increase the score -->
+        <img onclick="score()" src="media/Coockie.png" alt="Button">
+    </main>
+    <!-- Audio tag -->
+    <audio preload="auto">
+        <source src="media/Bite.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
